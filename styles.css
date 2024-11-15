@@ -1,0 +1,38 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #eceff1;
+    margin: auto, 0, 0, 0;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 2.5rem;
+}
+
+.container.directory {
+    width: 80%;
+    margin: 0px auto 15px;
+    background-color: #fff;
+    padding: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+a, .directory > p {
+    color: black;
+    text-decoration: none;
+    width: 100%;
+}
+
+.directory a {
+    display: inline-block;
+}
